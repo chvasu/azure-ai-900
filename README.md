@@ -32,6 +32,7 @@
      (creating a model is called experiment)
       - compute: compute instances (data scientists) | compute clusters (experiment machines) | inference clusters (deployment machines) | Attached compute (VM, HDinsight for ML)
 
+# ML evaluation
 - Regression evaluation: MAE, MSE, RMSE, R2, RSE, RAE
 - Classification evaluation: Confusion matrix (TP, TN, FP, FN) <- Accuracy, Precision, Recall, F1 Score | AUC (Area under curve, binary classification)
 - Clustering evaluation: Average distance to other center/cluster center, Number of points, Max distance to cluster center, Combined evaluation
