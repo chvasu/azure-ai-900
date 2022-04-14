@@ -1,8 +1,8 @@
 # Cognitive Services
  - Computer Vision (OCR [Regions, Lines, Words], Read [words, lines, pages], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text.
- - Custom Vision [evaluation: precision, recall, average precision]
+ - Custom Vision [evaluation: precision, recall, average precision] | Give to developers: Project ID, Model name, Prediction key, Prediction endpoint
     - Miltilabel (multiple tags) and Multiclass (single tag) <- classification & <- domains (general, logo, etc.)
-    - Object detection (coordinates of identified object) 
+    - Object detection (coordinates of identified object) | Prability score, Class name, Bounding box
  - Face API (Age, Emotion, Glasses, Hair, Makeup, eyeMakeup, LipMakeup) | max 6 MB | JPEG, PNG, GIF, BMP
 
  - Decision: Anomaly detector [Ingest time-series data, select best-fitting model], Content moderator
@@ -12,7 +12,7 @@
    - Translator API (text to text, From one language to multiple languages) | literal translate & semantic translation (with grammer)
  - LUIS (intent, entities, utterances, etc. takes action based on speech or text)) | Authoring [machine learned, List, RegEx, Pattern.any] and Prediction
  - Speech API (Text to speech (speech recognition), Speech to text (speech synthesis), Speech translation, Speaker recognition, Intent recognition, Speech Studio)
-   - Conversational AI (Q&AMaker [can't be multi-language], Azure Bot Service, Bot Framework [to build custom bot])
+   - Conversational AI (Q&AMaker [can't be multi-language], Azure Bot Service, Bot Framework [Need Skills | to build custom bot])
 
 # Applied AI Services
  - Form Recognizer: (max 50MB) | jpeg, png, bmp, pdf, tiff | 50x50 pixels and 10000x10000 pixels | pdf (max 17 inch x 17 inch)
