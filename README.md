@@ -41,8 +41,8 @@
   - Fainess, Reliability & Safety, Privacy & Security, Inclusiveness, Transparency, Accountability
 
 # AI Key elements
- Machine Learning
- Anomaly Detection
- Computer Vision 
- Natural Language Processing
- Conversational AI
+- Machine Learning
+- Anomaly Detection
+- Computer Vision 
+- Natural Language Processing
+- Conversational AI
