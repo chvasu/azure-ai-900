@@ -1,5 +1,5 @@
 # Cognitive Services
- - Computer Vision (OCR [Regions, Lines, Words], Read [words, lines, pages], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text.
+ - Computer Vision (OCR [Regions, Lines, Words], Read [words, lines, pages], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text. | max 4mb per image, size: 50x50, jpeg|png|gif|bmp
  - Custom Vision [evaluation: precision, recall, average precision] | Give to developers: Project ID, Model name, Prediction key, Prediction endpoint
     - Miltilabel (multiple tags) and Multiclass (single tag) <- classification & <- domains (general, logo, etc.)
     - Object detection (coordinates of identified object) | Prability score, Class name, Bounding box | <- domains (general, logo, etc.)
