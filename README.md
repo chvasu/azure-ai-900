@@ -2,7 +2,7 @@
  - Computer Vision (OCR [Regions, Lines, Words], Read [words, lines, pages], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text.
  - Custom Vision [evaluation: precision, recall, average precision] | Give to developers: Project ID, Model name, Prediction key, Prediction endpoint
     - Miltilabel (multiple tags) and Multiclass (single tag) <- classification & <- domains (general, logo, etc.)
-    - Object detection (coordinates of identified object) | Prability score, Class name, Bounding box
+    - Object detection (coordinates of identified object) | Prability score, Class name, Bounding box | <- domains (general, logo, etc.)
  - Face API (Age, Emotion, Glasses, Hair, Makeup, eyeMakeup, LipMakeup) | max 6 MB | JPEG, PNG, GIF, BMP
 
  - Decision: Anomaly detector [Ingest time-series data, select best-fitting model], Content moderator
