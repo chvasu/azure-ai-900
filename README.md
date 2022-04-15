@@ -1,5 +1,5 @@
 # Cognitive Services
- - Computer Vision (OCR [Regions, Lines, Words | between 50 x 50 and 4200 x 4200 pixels | max 10 megapixel], Read [JPEG, PNG, BMP, PDF and TIFF | words, lines, pages | max: 4mb to 50mb | 2 pages to 2000 pages | at least 50 x 50 pixels and at most 10000 x 10000 pixels], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text. | max 4mb per image, size: 50x50, jpeg|png|gif|bmp
+ - Computer Vision (OCR [Regions, Lines, Words | max 4 mb | between 50 x 50 and 4200 x 4200 pixels | max 10 megapixel], Read [JPEG, PNG, BMP, PDF and TIFF | words, lines, pages | max: 6mb to 50mb | 2 pages to 2000 pages | at least 50 x 50 pixels and at most 10000 x 10000 pixels], MCR [read & intrepret data]) -> can use this service to analyze images and video, and extract descriptions, tags, objects, and text. | max 4mb per image, size: 50x50, jpeg|png|gif|bmp
  - Custom Vision [evaluation: precision, recall, average precision] | Give to developers: Project ID, Model name, Prediction key, Prediction endpoint
     - Miltilabel (multiple tags) and Multiclass (single tag) <- classification & <- domains (general, logo, etc.)
     - Object detection (coordinates of identified object) | Prability score, Class name, Bounding box | <- domains (general, logo, etc.)
